@@ -19,12 +19,6 @@ class Triangle
           side1 != side2 && side2 != side3
           return :scalene
         else
-          begin
-            raise TriangleError
-          rescue TriangleError => error
-            puts error.notice
-          end #begin
-        end #if statement
       end #kind method
 
 
