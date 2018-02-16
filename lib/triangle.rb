@@ -15,7 +15,7 @@ class Triangle
             raise TriangleError
           rescue TriangleError => error
             puts error.notice
-          end
+          end #begin
         else
           side1 == side2 && side2 == side3
           return :equilateral
