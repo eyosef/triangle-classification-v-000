@@ -29,6 +29,6 @@ end #Triangle class
 
 class TriangleError < StandardError
   def notice
-    "The triangle is not equilateral."
+    "The triangle sides are not the same (re:equilateral triangle)."
   end
 end
