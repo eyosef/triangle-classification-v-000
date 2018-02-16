@@ -18,7 +18,7 @@ class Triangle
         elsif
           side1 != side2 && side2 != side3
           return :scalene
-        end
+        end #if statement
       end #kind method
 end #Triangle class
 
@@ -33,4 +33,3 @@ end
 # rescue TriangleError => error
 #   puts error.notice
 # end #begin
-end
