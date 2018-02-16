@@ -29,6 +29,7 @@ end #Triangle class
 
 class TriangleError < StandardError
   def notice
-    "The triangle sides provided do not meet the conditions of equilateral, isosceles or scalene triangles."
+    "The triangle sides provided do not meet the conditions of 
+    equilateral, isosceles or scalene triangles."
   end
 end
