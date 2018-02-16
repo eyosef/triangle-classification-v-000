@@ -18,6 +18,7 @@ class Triangle
         elsif
           side1 != side2 && side2 != side3
           return :scalene
+        else
         end #if statement
       end #kind method
 
