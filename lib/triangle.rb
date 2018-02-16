@@ -22,7 +22,7 @@ class Triangle
           end
         else
           side1 == side2 && side2 == side3
-          return Triangle.equilateral
+          return :equilateral
         end
 
 
