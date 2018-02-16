@@ -11,11 +11,7 @@ class Triangle
 
       def kind
         if side1 != side2 && side2 != side3
-          begin
-            raise TriangleError
-          rescue TriangleError => error
-            puts error.notice
-          end #begin
+
         else
           side1 == side2 && side2 == side3
           return :equilateral
@@ -35,3 +31,9 @@ class TriangleError < StandardError
     "Method has failed to determine type of Triangle."
   end
 end
+
+# begin
+#   raise TriangleError
+# rescue TriangleError => error
+#   puts error.notice
+# end #begin
