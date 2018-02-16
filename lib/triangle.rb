@@ -16,7 +16,7 @@ class Triangle
 
         if side1 != side2 && side2 != side3
           return Triangle.equilateral
-        elsif
+        else
           side1 == side2 && side2 == side3
 
 
