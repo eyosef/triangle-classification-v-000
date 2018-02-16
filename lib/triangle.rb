@@ -20,7 +20,7 @@ class Triangle
           side1 == side2 && side2 == side3
           return :equilateral
         end #if statement
-      end
+      end #kind method
 
 
 
