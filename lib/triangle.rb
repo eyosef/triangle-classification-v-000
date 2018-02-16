@@ -32,9 +32,3 @@ class TriangleError < StandardError
     "Method has failed to determine type of Triangle."
   end
 end
-
-# begin
-#   raise TriangleError
-# rescue TriangleError => error
-#   puts error.notice
-# end #begin
