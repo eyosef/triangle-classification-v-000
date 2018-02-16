@@ -18,7 +18,7 @@ class Triangle
             elsif side1 == side2 && side2 == side3
               return :equilateral
             elsif
-              side1 == side2 || side2 == side3 || (side1 == side3)
+              side1 == side2 || side2 == side3 || side1 == side3
               return :isosceles
             elsif
               side1 != side2 && side2 != side3
@@ -29,7 +29,7 @@ end #Triangle class
 
 class TriangleError < StandardError
   def notice
-    "The triangle sides provided do not meet the conditions of 
+    "The triangle sides provided do not meet the conditions of
     equilateral, isosceles or scalene triangles."
   end
 end
