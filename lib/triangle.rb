@@ -13,6 +13,11 @@ class Triangle
         begin
           if side1 == side2 && side2 == side3
             return :equilateral
+          end #if statement 
+        end #begin 
+      end #kind method
+
+            
       def kind
             if side1 == side2 && side2 == side3
               return :equilateral
