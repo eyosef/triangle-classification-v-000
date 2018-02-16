@@ -10,10 +10,10 @@ class Triangle
       end
 
       def kind
-        begin 
+        begin
           if side1 == side2 && side2 == side3
             return :equilateral
-          
+      def kind
             if side1 == side2 && side2 == side3
               return :equilateral
             elsif
