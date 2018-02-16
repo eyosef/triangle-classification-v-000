@@ -20,9 +20,6 @@ class Triangle
           return :scalene
         else
       end #kind method
-
-
-
 end #Triangle class
 
 class TriangleError < StandardError
