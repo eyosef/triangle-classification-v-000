@@ -19,7 +19,7 @@ class Triangle
         else
           side1 == side2 && side2 == side3
           return :equilateral
-          (side1 == side2) || (side2 == side3)
+          side1 == side2 || side2 == side3
         end #if statement
       end #kind method
 
