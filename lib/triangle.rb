@@ -10,15 +10,14 @@ class Triangle
       end
 
       def kind
-        if side1 != side2 && side2 != side3
-
-        else
-          side1 == side2 && side2 == side3
+        if side1 == side2 && side2 == side3
           return :equilateral
-          # side1 == side2 || side2 == side3
-          # return :isosceles
-          # side1 != side2 && side2 != side3
-          # return :scalene
+        elsif
+          side1 == side2 || side2 == side3
+          return :isosceles
+        elsif
+          side1 != side2 && side2 != side3
+          return :scalene
         end #if statement
       end #kind method
 
