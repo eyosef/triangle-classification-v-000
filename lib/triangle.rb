@@ -14,7 +14,7 @@ class Triangle
               raise TriangleError
             elsif side1 <= -1 || side2 <= -1 || side3 <= -1
               raise TriangleError
-              
+
             elsif side1 == side2 && side2 == side3
               return :equilateral
             elsif
@@ -29,6 +29,6 @@ end #Triangle class
 
 class TriangleError < StandardError
   def notice
-    "The triangle sides are not the same (re:equilateral triangle)."
+    "The triangle sides provided do not meet the conditions of equilateral, isosceles or scalene triangles."
   end
 end
