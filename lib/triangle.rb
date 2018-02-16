@@ -20,6 +20,7 @@ class Triangle
           side1 == side2 && side2 == side3
           return :equilateral
           side1 == side2 || side2 == side3
+          return :isosceles
         end #if statement
       end #kind method
 
