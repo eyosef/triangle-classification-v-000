@@ -17,13 +17,13 @@ class Triangle
         if side1 != side2 && side2 != side3
           begin
             raise TriangleError
-          rescue TriangleError => error 
+          rescue TriangleError => error
             puts error.message
-          end 
+          end
         else
           side1 == side2 && side2 == side3
           return Triangle.equilateral
-
+        end
 
 
       end
