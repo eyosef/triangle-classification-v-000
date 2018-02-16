@@ -14,9 +14,9 @@ class Triangle
         side2.self = side2
         side3.self = self3
 
-        if side1 == side2 && side2 == side3
+        if side1 != side2 && side2 != side3
           return Triangle.equilateral
-        elsif 
+        elsif
 
 
 
