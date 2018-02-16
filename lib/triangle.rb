@@ -14,9 +14,9 @@ class Triangle
         side2.self = side2
         side3.self = self3
 
-        
 
-        
+
+
       end
 
 
