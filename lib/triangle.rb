@@ -21,6 +21,8 @@ class Triangle
           return :equilateral
           side1 == side2 || side2 == side3
           return :isosceles
+          side1 != side2 && side2 != side3
+          return :scalene
         end #if statement
       end #kind method
 
