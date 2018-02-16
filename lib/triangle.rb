@@ -34,5 +34,6 @@ end #Triangle class
 
 class TriangleError < StandardError
   def notice
+    "Method has failed to determine type of Triangle."
   end
 end
