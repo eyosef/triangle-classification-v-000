@@ -33,5 +33,6 @@ class Triangle
 end #Triangle class
 
 class TriangleError < StandardError
- # triangle error code
+  def notice
+  end
 end
