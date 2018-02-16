@@ -10,12 +10,13 @@ class Triangle
       end
 
       def kind
+        side1.self
 
       end
 
 
 
-end #Triangle class 
+end #Triangle class
 
 class TriangleError < StandardError
  # triangle error code
